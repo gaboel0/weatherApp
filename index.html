@@ -14,18 +14,22 @@
   </head>
   <body>
     <section>
-      <div class="block">
-        <input placeholder="Insira a sua cidade: " />
-        <button>Buscar</button>
-
-        <h2>Tempo em {{cidade}}</h2>
-
-        <p>21°C</p>
-
-        <img src="" alt="weatherIcon" />
-        <p>Nublado</p>
-        <p>Umidade: x%</p>
+      <div class="big-box">
+        <input class="input-city" placeholder="Insira a sua cidade: " />
+        <button class="search-button">
+          <div class="button-text">🔎</div>
+        </button>
+        <div class="mid-box">
+          <h2>Tempo em {{cidade}}</h2>
+          
+          <p>21°C</p>
+          <div class="small-box">
+            <img src="" alt="weatherIcon" />
+            <p>Nublado</p>
+        </div>
+        </div>
       </div>
+        <p>Umidade: x%</p>
     </section>
   </body>
 </html>
