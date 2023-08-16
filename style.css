@@ -21,6 +21,11 @@ body{
     opacity: 0.8;
     border-radius: 25px;
     padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+.mid-box{
+    margin-top: 30px;
 }
 .input-city{
     border: none;
@@ -43,4 +48,28 @@ body{
 }
 .button-text{
     font-size: 20px;
+}
+.city{
+    color: #ffff;
+    font-size: 28px;
+}
+.city-temp{
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+}
+.small-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.temp-status{
+    color: #ffff;
+    margin-left: 20px;
+}
+
+.umity{
+    color: #ffff;
+    margin-top: 20px;
 }

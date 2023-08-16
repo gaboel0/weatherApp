@@ -12,24 +12,23 @@
     />
     <title>WeatherApp!</title>
   </head>
-  <body>
-    <section>
+  <body>   
       <div class="big-box">
         <input class="input-city" placeholder="Insira a sua cidade: " />
         <button class="search-button">
           <div class="button-text">🔎</div>
         </button>
         <div class="mid-box">
-          <h2>Tempo em {{cidade}}</h2>
+
+          <h2 class="city">Tempo em {{cidade}}</h2>
           
-          <p>21°C</p>
+          <p class="city-temp">21°C</p>
           <div class="small-box">
-            <img src="" alt="weatherIcon" />
-            <p>Nublado</p>
+            <img class="weatherIcon" />🌦️
+            <p class="temp-status">Nublado</p>
         </div>
         </div>
+        <p class="umity">Umidade: x%</p>
       </div>
-        <p>Umidade: x%</p>
-    </section>
   </body>
 </html>
